@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#BCAAA4</color>
+    <color name="colorPrimaryDark">#4E342E</color>
+    <color name="colorAccent">#FF5722</color>
+    <color name="editTextColorWhite">#FFFFFF</color>
+    <color name="editTextColorBlack">#000000</color>
+
+    <color name="editTextColorMarron">#4E342E</color>
+
+    <color name="baclgroundtext_card">#53292929</color>
+
+
+</resources>

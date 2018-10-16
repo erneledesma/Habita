@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Habita</string>
+    <string name="hint_username">Nombre de usuario</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="text_button_login">Ingresa</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="city_name_property">Concepcion del Uruguay</string>
+    <string name="lacation_card">Distancia:</string>
+    <string name="distance_card">200mts de Ti</string>
+    <string name="likenumber_card">Favorito</string>
+
+    <!-- String del bottombar tabs -->
+
+    <string name="tab_search">Buscar</string>
+    <string name="tab_home">Home</string>
+    <string name="tab_profile">Perfil</string>
+    <string name="title_activity_reference">ReferenceActivity</string>
+    <string name="usernme_property">Concepcion del Uruguay</string>
+    <string name="secondorddetail">Me gusta</string>
+    <string name="title_image_property">\"Duplex 2 hambientes\"</string>
+
+</resources>
