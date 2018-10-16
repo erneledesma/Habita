@@ -1,6 +1,7 @@
 package com.ernestoledesma.habita.adapter;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.text.Layout;
@@ -12,6 +13,7 @@ import android.widget.TextView;
 
 import com.ernestoledesma.habita.R;
 import com.ernestoledesma.habita.model.Picture;
+import com.ernestoledesma.habita.view.PictureDetailActivity;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
@@ -51,6 +53,16 @@ public class PictureAdapterRecyclerView  extends RecyclerView.Adapter<PictureAda
 
         //Modificamos el contexto, y llamamos a picture para insertar laas imagenes desde nuestra card
         Picasso.with(activity).load(picture.getPicture()).into(holder.property_card);
+
+        //Aqui le pasamos los parametros de los detalles de las vistas para que sean clikeable las cards
+        holder.property_card.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(activity, PictureDetailActivity.class);
+                activity.startActivity(intent);
+
+            }
+        });
 
     }
 

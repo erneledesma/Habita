@@ -18,7 +18,7 @@
             android:id="@+id/collapsingToolbar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
             app:contentScrim="@color/colorPrimary">
 
             <ImageView
@@ -34,7 +34,6 @@
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
-                android:background="?attr/colorPrimary"
                 app:popupTheme="@style/Theme.AppCompat.Light"
                 app:layout_collapseMode="pin"/>
 
@@ -106,7 +105,23 @@
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/textsize_likenumberdetail"
                 android:text="@string/title_image_property"
+                android:textStyle="bold"
+                android:paddingTop="@dimen/paddingtop_tittleimagedetail"
+                android:layout_gravity="center"
+                />
 
+
+            <TextView
+                android:id="@+id/textContentImageDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsize_likenumberdetail"
+                android:text="@string/lorem"
+                android:textStyle="bold"
+                android:paddingTop="@dimen/paddingtop_tittleimagedetail"
+                android:paddingLeft="@dimen/padding_horizontal_textcontent_detail"
+                android:paddingRight="@dimen/padding_horizontal_textcontent_detail"
+                android:layout_gravity="center"
                 />
 
 

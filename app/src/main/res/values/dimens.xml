@@ -18,6 +18,8 @@
     <dimen name="textsize_usernamedetail">25sp</dimen>
     <dimen name="textsize_likenumberdetail">15sp</dimen>
     <dimen name="height_divider">1dp</dimen>
+    <dimen name="paddingtop_tittleimagedetail">20dp</dimen>
+    <dimen name="padding_horizontal_textcontent_detail">35dp</dimen>
 
 
 </resources>
